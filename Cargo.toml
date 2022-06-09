@@ -1,0 +1,13 @@
+[package]
+name = "sple"
+version = "0.1.0"
+description = "A silly joke crate that embeds a string into your binary for people to find later"
+keywords = ["sple", "doubt"]
+categories = ["no-std"]
+authors = ["Octavia Togami <octavia.togami@gmail.com>"]
+license = "ISC"
+readme = "README.md"
+edition = "2021"
+
+[profile.release]
+strip = true
